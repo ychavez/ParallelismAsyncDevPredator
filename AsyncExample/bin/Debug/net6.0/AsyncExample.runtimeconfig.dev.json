@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/Users/yael.bernache/.dotnet/store/|arch|/|tfm|",
+      "/Users/yael.bernache/.nuget/packages"
+    ]
+  }
+}

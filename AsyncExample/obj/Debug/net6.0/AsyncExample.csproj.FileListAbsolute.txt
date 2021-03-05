@@ -1,0 +1,15 @@
+/Users/yael.bernache/Documents/GitHub/ParallelismAsyncDevPredator/AsyncExample/bin/Debug/net6.0/AsyncExample.deps.json
+/Users/yael.bernache/Documents/GitHub/ParallelismAsyncDevPredator/AsyncExample/bin/Debug/net6.0/AsyncExample.runtimeconfig.json
+/Users/yael.bernache/Documents/GitHub/ParallelismAsyncDevPredator/AsyncExample/bin/Debug/net6.0/AsyncExample.runtimeconfig.dev.json
+/Users/yael.bernache/Documents/GitHub/ParallelismAsyncDevPredator/AsyncExample/bin/Debug/net6.0/AsyncExample.dll
+/Users/yael.bernache/Documents/GitHub/ParallelismAsyncDevPredator/AsyncExample/bin/Debug/net6.0/ref/AsyncExample.dll
+/Users/yael.bernache/Documents/GitHub/ParallelismAsyncDevPredator/AsyncExample/bin/Debug/net6.0/AsyncExample.pdb
+/Users/yael.bernache/Documents/GitHub/ParallelismAsyncDevPredator/AsyncExample/obj/Debug/net6.0/AsyncExample.csprojAssemblyReference.cache
+/Users/yael.bernache/Documents/GitHub/ParallelismAsyncDevPredator/AsyncExample/obj/Debug/net6.0/AsyncExample.GeneratedMSBuildEditorConfig.editorconfig
+/Users/yael.bernache/Documents/GitHub/ParallelismAsyncDevPredator/AsyncExample/obj/Debug/net6.0/AsyncExample.AssemblyInfoInputs.cache
+/Users/yael.bernache/Documents/GitHub/ParallelismAsyncDevPredator/AsyncExample/obj/Debug/net6.0/AsyncExample.AssemblyInfo.cs
+/Users/yael.bernache/Documents/GitHub/ParallelismAsyncDevPredator/AsyncExample/obj/Debug/net6.0/AsyncExample.csproj.CoreCompileInputs.cache
+/Users/yael.bernache/Documents/GitHub/ParallelismAsyncDevPredator/AsyncExample/obj/Debug/net6.0/AsyncExample.dll
+/Users/yael.bernache/Documents/GitHub/ParallelismAsyncDevPredator/AsyncExample/obj/Debug/net6.0/ref/AsyncExample.dll
+/Users/yael.bernache/Documents/GitHub/ParallelismAsyncDevPredator/AsyncExample/obj/Debug/net6.0/AsyncExample.pdb
+/Users/yael.bernache/Documents/GitHub/ParallelismAsyncDevPredator/AsyncExample/obj/Debug/net6.0/AsyncExample.genruntimeconfig.cache
