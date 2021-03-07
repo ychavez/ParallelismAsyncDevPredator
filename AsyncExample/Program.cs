@@ -7,8 +7,19 @@ namespace AsyncExample
     {
         static async Task Main(string[] args)
         {
-              await PaymentAsync.RunAsync(100);
-             //await Async.Kitchen.Test.BreakFastAsync();
+            var reportarProgreso = new Progress<int>(ReportProgress);
+            await PaymentAsync.RunAsync(500,reportarProgreso);
+            //await PaymentAsync.RunAsync(100);
+            //await Async.Kitchen.Test.BreakFastAsync();
         }
+
+        private static void ReportProgress(int progress)
+        {
+            Console.Clear();
+            System.Console.WriteLine($"{progress }% procesado");
+        }
+
+
+
     }
 }
