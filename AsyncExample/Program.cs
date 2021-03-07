@@ -1,12 +1,14 @@
 ﻿using System;
+using System.Threading.Tasks;
 
 namespace AsyncExample
 {
     class Program
     {
-        static  void Main(string[] args)
+        static async Task Main(string[] args)
         {
-             SyncExample.Run().Wait();
+              await PaymentAsync.RunAsync(100);
+             //await Async.Kitchen.Test.BreakFastAsync();
         }
     }
 }
