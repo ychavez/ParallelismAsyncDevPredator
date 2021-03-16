@@ -126,7 +126,7 @@ namespace AsyncExample
                         if (progress != null)
                         {
                             intProgreso++;
-                            progress.Report((paimentsAmount / intProgreso) * 100);
+                            progress.Report(intProgreso);
                         }
                         return await client.Pay(payment);
 
