@@ -28,7 +28,7 @@ namespace AsyncExample
         }
         public static async Task RunAsync()
         {
-            const int paimentsAmount = 10000;
+            const int paimentsAmount = 100;
             try
             {
                 var stopWatch = new Stopwatch();
@@ -38,7 +38,7 @@ namespace AsyncExample
                 var PayCards = DataGenerator.GetPendingPayments(paimentsAmount).ToList();
                 var client = new RestService();
                 var PaymentTasks = new List<Task<(int, bool)>>();
-                //Llenamos la lista de tareas con las tareas de pago
+                //Llenamos la lista de tareas con las tareas de pago         
                 foreach (var payment in PayCards)
                 {
 
@@ -58,7 +58,7 @@ namespace AsyncExample
 
         public static async Task RunAsync(int concurrenceLimit)
         {
-            const int paimentsAmount = 10000;
+            const int paimentsAmount = 1000;
             try
             {
                 //Declaramos un semaforo donde solo puede haber 3 tareas concurrentes
@@ -101,7 +101,7 @@ namespace AsyncExample
 
         public static async Task RunAsync(int concurrenceLimit, IProgress<int> progress)
         {
-            const int paimentsAmount = 10000;
+            const int paimentsAmount = 1000;
             try
             {
                 //Declaramos un semaforo donde solo puede haber 3 tareas concurrentes
@@ -150,7 +150,7 @@ namespace AsyncExample
 
         public async Task RunAsync(int reintentos, int tiempoEspera)
         {
-            const int paimentsAmount = 10000;
+            const int paimentsAmount = 1000;
             try
             {
                 var stopWatch = new Stopwatch();

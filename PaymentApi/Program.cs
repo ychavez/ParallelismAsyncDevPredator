@@ -21,6 +21,12 @@ namespace PaymentApi
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
+                    webBuilder.UseKestrel(options =>
+                    {
+                        options.Limits.MaxConcurrentConnections = 100;
+
+                    });
+
                 });
     }
 }
