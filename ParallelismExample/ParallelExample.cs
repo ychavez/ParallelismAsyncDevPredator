@@ -12,11 +12,14 @@ namespace ParallelismExample
 
         public static void Run()
         {
-             SimpleArrayTransformation();
-             MultiThreadArrayTransformation();
-          //  MultithreadEachTransformation();
-           //  EachTransformation();
-             MultiThreadArrayTransformation(2);
+            // SimpleArrayTransformation();
+            // MultiThreadArrayTransformation();
+            //  MultithreadEachTransformation();
+            //  EachTransformation();
+            //  MultiThreadArrayTransformation(2);
+            LockExample();
+            LockExample();
+            LockExample();
         }
 
         #region Parallel For
@@ -69,6 +72,26 @@ namespace ParallelismExample
 
             timmer.Stop();
             System.Console.WriteLine($"Multithread {timmer.Elapsed}");
+        }
+
+        /// <summary>
+        /// Metodo atomico, siempre regresa el mismo valor
+        /// metodo no autosuficiente
+        /// </summary>
+        public static void LockExample()
+        {
+            int increment = 0;
+            int sumed = 0;
+            var Locker = new object();
+            Parallel.For(0, 10000, i =>
+            {
+                lock (Locker)
+                {
+                    increment++;
+                    sumed = sumed + i;
+                }
+            });
+            Console.WriteLine($"sumed {sumed} incremented {increment}");
         }
 
         #endregion
