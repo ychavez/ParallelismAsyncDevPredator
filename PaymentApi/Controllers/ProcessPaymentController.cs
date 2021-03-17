@@ -9,7 +9,7 @@ namespace PaymentApi.Controllers
     public class ProcessPaymentController
     {
 
-      [HttpPost]
+       [HttpPost]
         public async Task<bool>  Process(int PaymentId)
         {
           var rdn = new Random();

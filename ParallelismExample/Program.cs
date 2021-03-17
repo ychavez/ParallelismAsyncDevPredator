@@ -6,7 +6,8 @@ namespace ParallelismExample
     {
         static void Main(string[] args)
         {
-            ParallelExample.Run();
+             ParallelExample.Run();
+           // ParrallelLinq.Run();
         }
     }
 }
